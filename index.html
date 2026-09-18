@@ -687,16 +687,14 @@
     }
 
     @media (max-width: 650px) {
-  .header-inner { align-items: flex-start; flex-direction: column; }
-  nav { justify-content: flex-start; }
-  .section { padding: 65px 0; }
-  .container { width: min(100% - 30px, 1400px); }
-  .book-grid, .facts, .character-data { grid-template-columns: 1fr; }
-  .book-image { height: 390px; }
-  
-  /* NOVA LÍNIA PER AL PDF */
-  .pdf-container { height: 400px; }
-}
+      .header-inner { align-items: flex-start; flex-direction: column; }
+      nav { justify-content: flex-start; }
+      .section { padding: 65px 0; }
+      .container { width: min(100% - 30px, 1400px); }
+      .book-grid, .facts, .character-data { grid-template-columns: 1fr; }
+      .book-image { height: 390px; }
+      .pdf-container { height: 400px; }
+    }
   </style>
 </head>
 
@@ -783,125 +781,124 @@
         </div>
 
         <!-- 1. LA GINA I ELS NENS -->
-<div class="collection active" id="gina">
-  <div class="collection-header">
-    <div class="collection-cover">
-      <img src="cover-la-gina-i-els-nens.png" alt="Col·lecció La Gina i els nens">
-    </div>
-    <div class="collection-description">
-      <div class="eyebrow">LA COL·LECCIÓ ESTRELLA DE BONDIA</div>
-      <h2>La Gina i els nens</h2>
-      <p>
-        Una comèdia desenfrenada on la Gina, una adolescent de 17 anys enganxada al mòbil i amb molt poca paciència, ha d'intentar sobreviure a la ment de tres nens de 4 anys: la Marta, la Júlia i en Pau. Excursions, embolics, negociacions impossibles i una quantitat industrial de caos quotidià!
-      </p>
-    </div>
-  </div>
+        <div class="collection active" id="gina">
+          <div class="collection-header">
+            <div class="collection-cover">
+              <img src="cover-la-gina-i-els-nens.png" alt="Col·lecció La Gina i els nens">
+            </div>
+            <div class="collection-description">
+              <div class="eyebrow">LA COL·LECCIÓ ESTRELLA DE BONDIA</div>
+              <h2>La Gina i els nens</h2>
+              <p>
+                Una comèdia desenfrenada on la Gina, una adolescent de 17 anys enganxada al mòbil i amb molt poca paciència, ha d'intentar sobreviure a la ment de tres nens de 4 anys: la Marta, la Júlia i en Pau. Excursions, embolics, negociacions impossibles i una quantitat industrial de caos quotidià!
+              </p>
+            </div>
+          </div>
 
-  <!-- AQUESTA ÉS LA GRAELLA DELS LLIBRES -->
-  <div class="book-grid">
-    <article class="book-card">
-      <div class="book-image">
-        <img src="book-gina-apocalipsi.png" alt="La Gina i els nens: Apocalipsi">
-      </div>
-      <div class="book-content">
-        <div class="book-number">LLIBRE 01</div>
-        <h3>Apocalipsi</h3>
-        <p>
-          La Gina es fa càrrec dels seus cosins petits durant una excursió a la Garrotxa mentre els tiets van a un tast de fesols. Serà capaç de suportar tot el rebombori i la falta de Wi-Fi?
-        </p>
-        <button class="button primary" onclick="openPDF('gina-llibre-1-apocalipsi.pdf')">LLEGIR CÒMIC</button>
-      </div>
-    </article>
+          <div class="book-grid">
+            <article class="book-card">
+              <div class="book-image">
+                <img src="book-gina-apocalipsi.png" alt="La Gina i els nens: Apocalipsi">
+              </div>
+              <div class="book-content">
+                <div class="book-number">LLIBRE 01</div>
+                <h3>Apocalipsi</h3>
+                <p>
+                  La Gina es fa càrrec dels seus cosins petits durant una excursió a la Garrotxa mentre els tiets van a un tast de fesols. Serà capaç de suportar tot el rebombori i la falta de Wi-Fi?
+                </p>
+                <button class="button primary" onclick="openPDF('gina-llibre-1-apocalipsi.pdf')">LLEGIR CÒMIC</button>
+              </div>
+            </article>
 
-    <article class="book-card">
-      <div class="book-image">
-        <img src="book-gina-cor-robat.png" alt="La Gina i els nens: Cor Robat">
-      </div>
-      <div class="book-content">
-        <div class="book-number">LLIBRE 02</div>
-        <h3>Cor Robat</h3>
-        <p>
-          Quan l'Artur li diu que no a la Gina, ella contracta els seus cosins de 4 anys —la Marta, la Júlia i en Pau— per fer possible la cita, tot i saber que poden embolicar la troca de la manera més absurda.
-        </p>
-        <button class="button primary" onclick="openPDF('gina-llibre-2-cor-robat.pdf')">LLEGIR CÒMIC</button>
-      </div>
-    </article>
-  </div> <!-- <-- AQUEST </div> TANCA LA GRAELLA DELS LLIBRES! -->
+            <article class="book-card">
+              <div class="book-image">
+                <img src="book-gina-cor-robat.png" alt="La Gina i els nens: Cor Robat">
+              </div>
+              <div class="book-content">
+                <div class="book-number">LLIBRE 02</div>
+                <h3>Cor Robat</h3>
+                <p>
+                  Quan l'Artur li diu que no a la Gina, ella contracta els seus cosins de 4 anys —la Marta, la Júlia i en Pau— per fer possible la cita, tot i saber que poden embolicar la troca de la manera més absurda.
+                </p>
+                <button class="button primary" onclick="openPDF('gina-llibre-2-cor-robat.pdf')">LLEGIR CÒMIC</button>
+              </div>
+            </article>
+          </div>
 
-  <!-- PERSONATGES LA GINA I ELS NENS (ARA JA QUEDA A SOTA) -->
-  <div class="characters-section">
-    <div class="eyebrow">PERSONATGES</div>
-    <h3>Qui forma el caos de La Gina i els nens?</h3>
+          <!-- PERSONATGES LA GINA I ELS NENS -->
+          <div class="characters-section">
+            <div class="eyebrow">PERSONATGES</div>
+            <h3>Qui forma el caos de La Gina i els nens?</h3>
 
-    <div class="character-tabs">
-      <button class="character-tab active" onclick="showCharacter('gina-character')">GINA</button>
-      <button class="character-tab" onclick="showCharacter('nens-character')">MARTA, JÚLIA I PAU</button>
-      <button class="character-tab" onclick="showCharacter('artur-character')">ARTUR</button>
-      <button class="character-tab" onclick="showCharacter('tiets-character')">ELS TIETS</button>
-    </div>
+            <div class="character-tabs">
+              <button class="character-tab active" onclick="showCharacter('gina-character')">GINA</button>
+              <button class="character-tab" onclick="showCharacter('nens-character')">MARTA, JÚLIA I PAU</button>
+              <button class="character-tab" onclick="showCharacter('artur-character')">ARTUR</button>
+              <button class="character-tab" onclick="showCharacter('tiets-character')">ELS TIETS</button>
+            </div>
 
-    <div class="character active" id="gina-character">
-      <div class="character-image"><img src="char-gina.png" alt="Personatge Gina"></div>
-      <div>
-        <div class="eyebrow">PROTAGONISTA</div>
-        <h3>Gina</h3>
-        <p>Adolescent de 17 anys amb tolerància zero al caos i una dependència absoluta a la xarxa Wi-Fi. Té molta poca paciència, però li toca fer-se càrrec dels seus tres cosins de 4 anys en les situacions més inoportunes.</p>
-        <div class="character-data">
-          <div class="data-box"><strong>Edat</strong> 17 anys</div>
-          <div class="data-box"><strong>Obsessió</strong> La Wi-Fi i el mòbil</div>
-          <div class="data-box"><strong>Punt feble</strong> Poca paciència</div>
-          <div class="data-box"><strong>Objectiu</strong> Que l'Artur li faci cas</div>
+            <div class="character active" id="gina-character">
+              <div class="character-image"><img src="char-gina.png" alt="Personatge Gina"></div>
+              <div>
+                <div class="eyebrow">PROTAGONISTA</div>
+                <h3>Gina</h3>
+                <p>Adolescent de 17 anys amb tolerància zero al caos i una dependència absoluta a la xarxa Wi-Fi. Té molta poca paciència, però li toca fer-se càrrec dels seus tres cosins de 4 anys en les situacions més inoportunes.</p>
+                <div class="character-data">
+                  <div class="data-box"><strong>Edat</strong> 17 anys</div>
+                  <div class="data-box"><strong>Obsessió</strong> La Wi-Fi i el mòbil</div>
+                  <div class="data-box"><strong>Punt feble</strong> Poca paciència</div>
+                  <div class="data-box"><strong>Objectiu</strong> Que l'Artur li faci cas</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="character" id="nens-character">
+              <div class="character-image"><img src="char-nens.png" alt="La Marta, la Júlia i en Pau"></div>
+              <div>
+                <div class="eyebrow">EL TRIO DEL REBOMBORI</div>
+                <h3>Marta, Júlia i Pau</h3>
+                <p>Tres nens de 4 anys completament bojos, estrafolaris i extremadament innocents. A vegades intenten col·laborar amb la Gina, però el 99% de les vegades acaben generant un descontrol absolut on van.</p>
+                <div class="character-data">
+                  <div class="data-box"><strong>Edat</strong> 4 anys</div>
+                  <div class="data-box"><strong>Personalitat</strong> Innocents i imprevisibles</div>
+                  <div class="data-box"><strong>Especialitat</strong> Embolicar la troca</div>
+                  <div class="data-box"><strong>Habilitat</strong> Trens de caos instantanis</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="character" id="artur-character">
+              <div class="character-image"><img src="char-artur.png" alt="Personatge Artur"></div>
+              <div>
+                <div class="eyebrow">L'INTERÈS AMORÓS</div>
+                <h3>Artur</h3>
+                <p>El noi que li agrada a la Gina. És completament inaccessible i sembla tenir com a passatemps dir-li que "no" a la Gina per a qualsevol pla que ella proposi.</p>
+                <div class="character-data">
+                  <div class="data-box"><strong>Rol</strong> Interès amorós</div>
+                  <div class="data-box"><strong>Actitud</strong> Inaccessible</div>
+                  <div class="data-box"><strong>Frase típica</strong> "No."</div>
+                  <div class="data-box"><strong>Estat</strong> Objectiu del pla "Cor Robat"</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="character" id="tiets-character">
+              <div class="character-image"><img src="char-tiets.png" alt="Els Tiets"></div>
+              <div>
+                <div class="eyebrow">PAPA I MAMA DELS NENS</div>
+                <h3>Els Tiets</h3>
+                <p>Els pares de la Marta, la Júlia i en Pau. Experten en demanar a la Gina que cuidi dels nens amb l'excusa d'anar a esdeveniments absolutament crucials com un tast de fesols a la Garrotxa.</p>
+                <div class="character-data">
+                  <div class="data-box"><strong>Rol</strong> Tiets de la Gina</div>
+                  <div class="data-box"><strong>Prioritat</strong> Marxar de tastets</div>
+                  <div class="data-box"><strong>Estratègia</strong> Deixar els nens a la Gina</div>
+                  <div class="data-box"><strong>Ubicació favorita</strong> La Garrotxa</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
-      </div>
-    </div>
-
-    <div class="character" id="nens-character">
-      <div class="character-image"><img src="char-nens.png" alt="La Marta, la Júlia i en Pau"></div>
-      <div>
-        <div class="eyebrow">EL TRIO DEL REBOMBORI</div>
-        <h3>Marta, Júlia i Pau</h3>
-        <p>Tres nens de 4 anys completament bojos, estrafolaris i extremadament innocents. A vegades intenten col·laborar amb la Gina, però el 99% de les vegades acaben generant un descontrol absolut on van.</p>
-        <div class="character-data">
-          <div class="data-box"><strong>Edat</strong> 4 anys</div>
-          <div class="data-box"><strong>Personalitat</strong> Innocents i imprevisibles</div>
-          <div class="data-box"><strong>Especialitat</strong> Embolicar la troca</div>
-          <div class="data-box"><strong>Habilitat</strong> Trens de caos instantanis</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="character" id="artur-character">
-      <div class="character-image"><img src="char-artur.png" alt="Personatge Artur"></div>
-      <div>
-        <div class="eyebrow">L'INTERÈS AMORÓS</div>
-        <h3>Artur</h3>
-        <p>El noi que li agrada a la Gina. És completament inaccessible i sembla tenir com a passatemps dir-li que "no" a la Gina per a qualsevol pla que ella proposi.</p>
-        <div class="character-data">
-          <div class="data-box"><strong>Rol</strong> Interès amorós</div>
-          <div class="data-box"><strong>Actitud</strong> Inaccessible</div>
-          <div class="data-box"><strong>Frase típica</strong> "No."</div>
-          <div class="data-box"><strong>Estat</strong> Objectiu del pla "Cor Robat"</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="character" id="tiets-character">
-      <div class="character-image"><img src="char-tiets.png" alt="Els Tiets"></div>
-      <div>
-        <div class="eyebrow">PAPA I MAMA DELS NENS</div>
-        <h3>Els Tiets</h3>
-        <p>Els pares de la Marta, la Júlia i en Pau. Experten en demanar a la Gina que cuidi dels nens amb l'excusa d'anar a esdeveniments absolutament crucials com un tast de fesols a la Garrotxa.</p>
-        <div class="character-data">
-          <div class="data-box"><strong>Rol</strong> Tiets de la Gina</div>
-          <div class="data-box"><strong>Prioritat</strong> Marxar de tastets</div>
-          <div class="data-box"><strong>Estratègia</strong> Deixar els nens a la Gina</div>
-          <div class="data-box"><strong>Ubicació favorita</strong> La Garrotxa</div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
 
         <!-- 2. MEH I LLANA -->
         <div class="collection" id="meh">
@@ -919,6 +916,7 @@
           </div>
 
           <div class="book-grid">
+            <!-- Llibre 01 -->
             <article class="book-card">
               <div class="book-image">
                 <img src="book-tempesta-de-sucre.png" alt="Meh i Llana: El misteri de la Tempesta de Sucre!">
@@ -929,7 +927,22 @@
                 <p>
                   En Zamboni i la seva màquina han provocat un caos dolç a tot el bosc i els amics han d'impedir que vagi a més! Aconseguiran parar la tempesta i reunir els ingredients màgics?
                 </p>
-                <button class="button" onclick="openPDF('meh-llibre-1.pdf')">VEURE EL LLIBRE</button>
+                <button class="button primary" onclick="openPDF('meh-llibre-1.pdf')">VEURE EL LLIBRE</button>
+              </div>
+            </article>
+
+            <!-- Llibre 02 -->
+            <article class="book-card">
+              <div class="book-image">
+                <img src="book-llana-multiplicada.png" alt="Meh i Llana 2: El dia en què la Llana es va multiplicar">
+              </div>
+              <div class="book-content">
+                <div class="book-number">LLIBRE 02</div>
+                <h3>El dia en què la Llana es va multiplicar</h3>
+                <p>
+                  Si una sola Llana ja era capaç de revoltar tot el Bosc de Fantasia, què passarà quan se'n multipliquin un grapat? Una aventura plena de confusió i el doble de caos!
+                </p>
+                <button class="button primary" onclick="openPDF('meh-llibre-2.pdf')">VEURE EL LLIBRE</button>
               </div>
             </article>
           </div>
@@ -1083,7 +1096,7 @@
                 <p>
                   Unes llums estranyes apareixen als rocars de Montserrat. Acompanyaràs la Leila i en Gerard a descobrir el secret que s'hi amaga?
                 </p>
-                  <button class="button primary" onclick="openPDF('resplendor-llibre-1.pdf')">LLEGIR CÒMIC</button>
+                <button class="button primary" onclick="openPDF('resplendor-llibre-1.pdf')">LLEGIR CÒMIC</button>
               </div>
             </article>
 
@@ -1184,7 +1197,7 @@
                 <p>
                   Quatre quilòmetres d'inclinació vertical, 5 habitants sense nom i un grapat de situacions absurdes que cap habitant de la terra plana aconseguirà entendre mai.
                 </p>
-                <button class="button" onclick="openPDF('punta-de-lesquerda-llibre.pdf')">VEURE EL LLIBRE</button>
+                <button class="button primary" onclick="openPDF('punta-de-lesquerda-llibre.pdf')">VEURE EL LLIBRE</button>
               </div>
             </article>
           </div>
